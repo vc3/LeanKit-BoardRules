@@ -7,6 +7,9 @@
 		"type" : "git",
 		"url" : "https://github.com/vc3/LeanKit-BoardRules.git"
 	},
+	"bin": {
+		"leankit-boardrules": "./bin/leankit-boardrules.js"
+	},
 	"dependencies": {
 		"leankit-client": "*"
 	}

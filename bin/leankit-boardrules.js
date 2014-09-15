@@ -1,7 +1,9 @@
+#! /usr/bin/env node
 
+var path = require('path');
 var fs = require('fs');
 var leankit = require('leankit-client');
-var boardRules = require('./LeanKit-BoardRules.js');
+var boardRules = require('../LeanKit-BoardRules.js');
 
 
 // Get arguments
@@ -31,7 +33,7 @@ if (!configFile)
 if(!fs.existsSync(configFile))
 	usageAndExit('File not found: ' + configFile);
 
-var config = require(configFile.replace(/\\/, '/'));
+var config = require(path.resolve(configFile.replace(/\\/, '/')));
 
 if (!config.account) {
 	usageAndExit('configFile did not export an account. Set: exports = {account, boardId, rules}');
@@ -65,7 +67,7 @@ function usageAndExit(errorMessage) {
 		console.log('');
 	}
 
-	console.log('USAGE: run-rules.js email password <execute|report> configFile');
+	console.log('USAGE: leankit-boardrules email password <execute|report> configFile');
 	console.log('  email:      Email address of user to connect as');
 	console.log('  password:   Password of user to connect as');
 	console.log('  execute:    Specify to execute the rules');

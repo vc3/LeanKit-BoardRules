@@ -3,10 +3,17 @@ LeanKit-BoardRules
 
 Node script and module that does things to cards on a LeanKit board.
 
-Command Line Usage (run-rules.js):
+Installation:
 ----------------------------------
 ```
-node run-rules.js email password <execute|report> configFile');
+npm install leankit-boardrules -g
+```
+
+
+Command Line Usage:
+----------------------------------
+```
+leankit-boardrules email password <execute|report> configFile');
 ```
 
 Arguments:
