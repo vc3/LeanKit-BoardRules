@@ -1,16 +1,16 @@
 {
-	"name": "leankit-boardrules",
-	"version": "1.0.0",
-	"description": "Simple rule runner that does things to cards on a LeanKit board. More info: https://github.com/vc3/LeanKit-BoardRules",
-	"homepage": "https://github.com/vc3/LeanKit-BoardRules",
-	"repository" : {
-		"type" : "git",
-		"url" : "https://github.com/vc3/LeanKit-BoardRules.git"
-	},
-	"bin": {
-		"leankit-boardrules": "./bin/leankit-boardrules.js"
-	},
-	"dependencies": {
-		"leankit-client": "*"
-	}
+  "name": "leankit-boardrules",
+  "version": "1.0.1",
+  "description": "Simple rule runner that does things to cards on a LeanKit board. More info: https://github.com/vc3/LeanKit-BoardRules",
+  "homepage": "https://github.com/vc3/LeanKit-BoardRules",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vc3/LeanKit-BoardRules.git"
+  },
+  "bin": {
+    "leankit-boardrules": "./bin/leankit-boardrules.js"
+  },
+  "dependencies": {
+    "leankit-client": "*"
+  }
 }
