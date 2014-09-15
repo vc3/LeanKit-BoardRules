@@ -5,6 +5,9 @@ Node script and module that does things to cards on a LeanKit board.
 
 Installation:
 ----------------------------------
+Install nodejs from here: http://nodejs.org/download/
+
+Then install leankit-boardrules:
 ```
 npm install leankit-boardrules -g
 ```
@@ -13,7 +16,7 @@ npm install leankit-boardrules -g
 Command Line Usage:
 ----------------------------------
 ```
-leankit-boardrules email password <execute|report> configFile');
+leankit-boardrules email password <execute|report> configFile
 ```
 
 Arguments:
