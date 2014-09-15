@@ -1,5 +1,5 @@
 {
-	"name": "LeanKit-BoardRules",
+	"name": "leankit-boardrules",
 	"version": "1.0.0",
 	"description": "Simple rule runner that does things to cards on a LeanKit board. More info: https://github.com/vc3/LeanKit-BoardRules",
 	"homepage": "https://github.com/vc3/LeanKit-BoardRules",
